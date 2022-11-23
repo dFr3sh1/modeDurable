@@ -1,0 +1,87 @@
+.footerSections {
+    background-color: black;
+    clear: both;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+    position: relative;
+    z-index: 100;   
+}
+
+#footerContainer {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+#newsletter {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    align-items: center;
+    margin: auto;
+}
+
+.footerTitles {
+    color: white;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.footerTitles, p {
+    color: white;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+#singmeup {
+    color: white;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+#footerPrivacyNote{
+    color: white;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+#unicode {
+    color: white
+}
+
+.far
+{
+    color: white;
+    align-self: center
+}
+
+#footerBaseline {  
+    align-self: flex-start;
+    width: 22%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+#author {       
+    color: white;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 12px;
+}
