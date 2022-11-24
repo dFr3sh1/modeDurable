@@ -60,17 +60,13 @@
     text-decoration-line: underline;
 }
 
-#unicode {
-    color: white
-}
-
 .far
 {
     color: white;
     align-self: center
 }
 
-#footerBaseline {  
+.footerBaseline {  
     align-self: flex-start;
     width: 22%;
     padding: 1%;
@@ -85,3 +81,4 @@
     font-family: 'Alexandria', sans-serif;
     font-size: 12px;
 }
+
