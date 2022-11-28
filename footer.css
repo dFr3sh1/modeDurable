@@ -3,17 +3,12 @@
     clear: both;
     color: white;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     padding: 1%;
     position: relative;
     z-index: 100;   
 }
 
 #footerContainer {
-    width: 100%;
     padding: 1%;
     display: flex;
     flex-direction: row;
@@ -22,23 +17,18 @@
     margin: auto;
 }
 
-#newsletter {
+.newsletter {
     width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: safe;
-    align-items: center;
-    margin: auto;
 }
 
 .footerTitles {
     color: white;
     font-family: 'Alexandria', sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     text-align: left;
 }
 
-.footerTitles, p {
+#newsletter {
     color: white;
     font-family: 'Alexandria', sans-serif;
     font-size: 16px;
@@ -52,6 +42,11 @@
     text-align: left;
 }
 
+.getHelp {
+    width: 30%;
+
+}
+
 #footerPrivacyNote{
     color: white;
     font-family: 'Alexandria', sans-serif;
@@ -60,20 +55,21 @@
     text-decoration-line: underline;
 }
 
-.far
-{
-    color: white;
-    align-self: center
-}
-
 .footerBaseline {  
     align-self: flex-start;
     width: 22%;
+    margin-left: 2.5%;
     padding: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
     align-items: flex-start;
+}
+
+.far
+{
+    color: white;
+    align-self: center
 }
 
 #author {       
@@ -82,3 +78,52 @@
     font-size: 12px;
 }
 
+.btncontourbst {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.btn .btn-outlined-dark {
+    font-size: 1em;
+    font-weight: 700;
+    position: relative;
+    text-rendering: geometricPrecision;
+    transform: perspective(1px) scaleX(1) translateZ(0);
+    background: #0000;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-dark {
+    --bs-btn-border-color: #000;
+}
+
+.btn {
+    --bs-btn-padding-x: 3.2rem;
+    --bs-btn-padding-y: 0.6rem; 
+    --bs-btn-line-height: 1.5;
+    --bs-btn-border-width: 0.4rem;
+    --bs-btn-border-radius: 3rem;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    line-height: var(--bs-btn-line-height);
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    text-align: center;
+    text-decoration: none;
+}
+
+.footerInformation {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    align-items: center;
+}
+
+#footerInformationLinks {
+    color: #FFF;
+
+}
